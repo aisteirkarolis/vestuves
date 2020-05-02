@@ -673,4 +673,8 @@ header h3 {
   .main-title-wrapper {
     top: 25%;
   }
+
+  header .wrapper {
+    background-position: right bottom;
+  }
 }
