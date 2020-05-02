@@ -678,3 +678,9 @@ header h3 {
     background-position: right bottom;
   }
 }
+
+@media (max-width: 768px) and (max-height: 640px) {
+  .timer-block .bottom {
+    display: none;
+  }
+}
