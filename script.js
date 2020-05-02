@@ -26,10 +26,3 @@ const x = setInterval(function () {
     document.getElementById("timer").innerHTML = "";
   }
 }, 1000);
-
-const informationBlock = document.querySelector('.information-block');
-const moreInfoBtn = document.querySelector('.more-info');
-
-moreInfoBtn.addEventListener('click', function (event) {
-  informationBlock.scrollIntoView({ behavior: "smooth" });
-});
