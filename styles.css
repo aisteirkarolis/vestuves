@@ -669,4 +669,8 @@ header h3 {
     width: 2.5em;
     height: 2.5em;
   }
+
+  .main-title-wrapper {
+    top: 25%;
+  }
 }
