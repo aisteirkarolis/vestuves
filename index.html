@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aistės ir Karolio vestuvės</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="main-title-wrapper">
+        <div class="main-title-container desktop">
+          <h1 class="main-title aiste">Aistė</h1>
+          <img src="./img/luxury.svg" alt="rings">
+          <h1 class="main-title karolis">Karolis</h1>
+        </div>
+
+        <div class="main-title-container mobile">
+          <h1 class="main-title aiste">A</h1>
+          <img src="./img/luxury.svg" alt="rings">
+          <h1 class="main-title karolis">K</h1>
+        </div>
+        <div class="subtitle">Maloniai kviečiame Jus būti kartu mūsų Meilės šventėje</div>
+
+        <button class="more-info">Daugiau informacijos</button>
+      </div>
+
+      <div class="timer-block">
+        <div class="top">
+          <h3>Šventės data: <span>2020 - 09 - 12</span></h3>
+        </div>
+        <div class="bottom">
+          <h3>Iki šventės liko:</h3>
+          <div id="timer"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <div class="gallery-block">
+    <p class="top">Kai Jis klūpėdamas paprašė už jos tekėti...</p>
+    <p class="bottom">Ji nedvejodama atsakė: Taip!</p>
+    <div id="gallery">
+      <div><img src="./img/nuotrauka1.jpg" /><a href="#lightbox-1"></a></div>
+      <div><img src="./img/nuotrauka2.jpg" /><a href="#lightbox-2"></a></div>
+      <div><img src="./img/nuotrauka3.jpg" /><a href="#lightbox-3"></a></div>
+      <div><img src="./img/nuotrauka4.jpg" /><a href="#lightbox-4"></a></div>
+      <div><img src="./img/nuotrauka5.jpg" /><a href="#lightbox-5"></a></div>
+      <div><img src="./img/nuotrauka7.jpg" /><a href="#lightbox-6"></a></div>
+    </div>
+    <div class="lightbox" id="lightbox-1">
+      <div class="content"><img src="./img/nuotrauka1.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-2">
+      <div class="content"><img src="./img/nuotrauka2.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-3">
+      <div class="content"><img src="./img/nuotrauka3.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-4">
+      <div class="content"><img src="./img/nuotrauka4.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-5">
+      <div class="content"><img src="./img/nuotrauka5.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-6">
+      <div class="content"><img src="./img/nuotrauka7.jpg" />
+        <a class="close" href="#gallery"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="information-block">
+    <h3>Informacija apie vestuves</h3>
+
+    <div class="church-block">
+      <div class="church-image">
+        <!-- <img src="./img/baznycia.jpg" alt=""> -->
+      </div>
+      <div class="church-info"><strong>12:00</strong> Marijos Taikos Karalienės bažnyčia Rumpiškės g. 6, Klaipėda</div>
+    </div>
+    <div class="hall-block">
+      <div class="hall-image"></div>
+      <div class="hall-info"><strong>18:00</strong> Sodyba „Ažuolo vartai“ Žlibinų kelio g. 23, Glaudžių km., Plungės
+        raj. sav.</div>
+    </div>
+    <div class="presents-block">
+      Nesukite sau galvos dėl gėlių.Vietoje jų padovanokite loterijos bilietą. <br>
+      Dovanas ketiname išsirinkti patys – taip sumažinsime rūpesčių Jums. <br>
+      Be vestuvių vaišių, taip pat pasirūpinsime ir Jūsų nakvyne. <br>
+      Būtume dėkingi, jeigu apie dalyvavimą praneštumėte iki liepos 1 d.
+    </div>
+  </div>
+
+  <div class="contact-block">
+    <h2>„Labai Jūsų laukiame, jog kartu galėtume pasidžiaugti Mūsų Meilės švente!“ - Aistė ir Karolis</h2>
+    <div class="wrapper">
+
+      <h6>Susisiekite su mumis :</h6>
+      <div class="contact-links">
+        <a href="https://www.facebook.com/aiste.burkauskaite" target="_blank">Facebook</a>
+        <a href="mailto:burkauskaite14@gmail.com">El.paštas</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
