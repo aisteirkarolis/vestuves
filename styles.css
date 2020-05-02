@@ -596,6 +596,7 @@ header h3 {
 
   .more-info {
     width: auto;
+    margin-top: 10px;
   }
 
   .main-title-wrapper .subtitle {
