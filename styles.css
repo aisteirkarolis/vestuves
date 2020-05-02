@@ -488,8 +488,8 @@ header h3 {
 }
 
 [id^="lightbox-"] a.close {
-  width: 2em;
-  height: 2em;
+  width: 3.5em;
+  height: 3.5em;
   position: absolute;
   right: 0;
   top: 0;
@@ -497,11 +497,12 @@ header h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scale(0, 0);
-  opacity: 0;
+  transform: scale(1, 1);
+  opacity: 1;
   transform-origin: right top;
   text-decoration: none;
   color: #fff;
+  font-size: 24px;
 }
 
 [id^="lightbox-"] a.close::after {
@@ -595,8 +596,7 @@ header h3 {
   }
 
   .more-info {
-    width: auto;
-    margin-top: 10px;
+    display: none;
   }
 
   .main-title-wrapper .subtitle {
@@ -663,5 +663,10 @@ header h3 {
   .contact-block h6,
   .contact-links a {
     margin-right: 0;
+  }
+
+  [id^="lightbox-"] a.close {
+    width: 2.5em;
+    height: 2.5em;
   }
 }
